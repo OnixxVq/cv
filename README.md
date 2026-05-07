@@ -1,3 +1,3 @@
-"# CV" 
-"" 
-"https://OnixxVq.github.io/cv/cv.md" 
+# CV
+
+https://OnixxVq.github.io/cv/cv.md

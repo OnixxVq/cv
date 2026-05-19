@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miheev Egor - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container main-container">
+
+        <section class="section" id="profile">
+            <h1 class="section-title">Miheev Egor</h1>
+            <h2 class="section-subtitle">Junior Frontend Developer</h2>
+            <img src="assets/img/avatar.jpg" alt="avatar" class="avatar">
+        </section>
+
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+                <li>Phone: +38 068 4489766</li>
+                <li>Email: egormiheev@gmail.com</li>
+                <li>Telegram: @egor-miheev</li>
+            </ul>
+        </section>
+
+        <section class="section" id="summary">
+            <h2 class="section-title">About me</h2>
+            <p>Having started my career as a layout designer, I became proficient in printing design. Three years ago I became passionate about retouching and found my first job as a retoucher. Remote work gives me extra free time, which I spend learning Frontend Development. I believe that my ability to learn will lead me to become a proficient Frontend Developer.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code, IntelliJ IDEA</li>
+                <li>Adobe Photoshop, Illustrator, InDesign</li>
+            </ul>
+        </section>
+
+        <section class="section" id="code">
+            <h2 class="section-title">Code example</h2>
+            <pre class="code-example">
+function peak(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        let leftSum = arr.slice(0, i).reduce((a, b) => a + b, 0);
+        let rightSum = arr.slice(i + 1).reduce((a, b) => a + b, 0);
+        if (leftSum === rightSum) return i;
+    }
+    return -1;
+}
+            </pre>
+        </section>
+
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+                <li><a href="https://github.com/ВАШ_НИКНЕЙМ/cv">CV</a> (Curriculum Vitae)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+                <li>HTML and CSS Tutorials on w3schools (completed)</li>
+                <li>JavaScript Manual on learnjavascript.ru (in progress)</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="section-list">
+                <li>Printing technologies and retouching (self-education)</li>
+                <li>Frontend Development (self-education)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="english">
+            <h2 class="section-title">English Level</h2>
+            <p>Intermediate / Upper-intermediate (according to EFSET)</p>
+        </section>
+
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2025 Miheev Egor</p>
+    </div>
+</footer>
+
+</body>
+</html>
